@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul id="ul1" >
+        <li>first</li>
+        <li>second</li>
+        <li>thirs</li>
+        <li>foueth</li>
+        <li>five</li>
+    </ul>
+
+    <script>
+        elm1=document.getElementById("ul1");
+        elm2=document.createElement("li");
+        elm2.id="id1";
+        elm2.class="class";
+        elm2.innerHTML="in between";
+        console.log(elm2);
+        elm1.append(elm2);
+
+    </script>
+</body>
+</html>
