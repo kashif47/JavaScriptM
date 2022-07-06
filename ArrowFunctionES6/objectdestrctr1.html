@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>object de-structuring</h2>
+    <script>
+        let bike={
+            colour:`red`,
+            model:`ktm`,
+            price:80000
+        }
+
+        let {colour:clr,model,price}=bike; //object de structring.
+
+        console.log(clr);  //short cut name change in de structring.
+        console.log(price);
+        console.log(model);
+    </script>
+</body>
+</html>
