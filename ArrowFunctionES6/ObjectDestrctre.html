@@ -10,16 +10,23 @@
     <script>
      person={
         firstName:"sam",
+        middlename:"md",
         lastName:"Khan"
 
     }
+    // es5 proccess
+    // console.log(person);
     //let fname=person.firstName;
     //let lname=person.lastName;
 
-    let {firstName,lastName}=person;
+     //destructring 
 
-    console.log(person);
+    let {firstName,middlename,lastName:Lname}=person;
+
+    
     console.log(firstName);
+    console.log(middlename);
+    console.log(Lname); 
 
 
 </script>
